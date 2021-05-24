@@ -1,5 +1,7 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+backend/__pycache__/
+backend/flaskr/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -109,6 +111,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+backend/venv/
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +130,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#node modules
+frontend/node_modules/*
+
